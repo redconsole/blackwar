@@ -1,0 +1,53 @@
+.cbox {
+    /* border: solid black;
+    height: 600px; */
+}
+
+.header-row {
+    height: 80px;
+}
+.header-menu {
+    height: 60px;
+}
+.body-row {
+    /* height: 500px; */
+    /* border-block-width: 200px; */
+}
+
+.hd1 {
+    /* border: solid; */
+    background-color: aqua;
+}
+.hd2 {
+    /* border: solid; */
+    background-color: red
+}
+.hd3 {
+    /* border: solid; */
+    background-color: green;
+}
+.hd4 {
+    /* border: solid; */
+    background-color: aqua;
+}
+
+.bd1 {
+    /* border: solid; */
+    background-color: aqua;
+}
+
+.bd2 {
+    /* border: solid; */
+    background-color: red;
+}
+
+.bd3 {
+    /* border: solid; */
+    background-color: aqua;
+}
+
+.footer {
+   border: solid black; 
+   text-align: center;
+   height: 30px;
+}
