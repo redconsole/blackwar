@@ -1,0 +1,35 @@
+<div class="container-fluid home" >
+    <div class="container">
+
+    <div class="col-md-18">
+        <a href="#" class="badge badge-primary" (click)="clickPrimary()">Primary</a>
+        <a href="#" class="badge badge-secondary" (click)="clickSecondary()">Secondary</a>
+        <a href="#" class="badge badge-success" *ngIf="primaryClicked; else onDanger" (click)="clickSuccess()">Success</a>
+        <ng-template #onDanger>
+            <!-- <p> Danger</p> -->
+            <a href="#" class="badge badge-danger" >Danger</a>
+            <a href="#" class="badge badge-warning">Warning</a>
+            <a href="#" class="badge badge-info">Info</a>
+            <a href="#" class="badge badge-light">Light</a>
+            <a href="#" class="badge badge-dark">Dark</a>
+        </ng-template>
+       
+        <div>
+            
+                <a *ngFor="let server of servers" href="#">{{server}}</a>
+        </div>
+
+    </div>
+        <div class="col-md-6">
+            <div>
+                <label for="name">User Name</label>
+                <input id="name" type="text" (input)="ongetText($event)">
+                <button class="btn btn-primary" [disabled]="!allowNewSerevr" (click)="onClick($event)"> Sign Up</button>
+                <br>
+
+                <p>{{sererName}}</p>
+            </div>            
+        </div>
+    </div>
+    <div ngFor></div>
+</div>

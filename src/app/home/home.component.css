@@ -1,0 +1,12 @@
+input{
+    margin-right: 10px;
+}
+
+a{
+    color: red;
+}
+
+.home {
+   background: orange; 
+   margin: 10px auto 0px auto;
+}
